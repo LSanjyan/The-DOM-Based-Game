@@ -5,11 +5,21 @@
     <link rel="stylesheet" type="text/css" href="type.css"
 </head>
 <body>
-    <div class="game">
+    <img id="background" width="220" height="277" src="wp1936452 field.jpg" alt="The Background">
+    <canvas id="myCanvas" width="240" height="297" style="border:1px solid grey;"></canvas>
+    <div class="balls"></div>
     <div class="danger-line"></div>
+    <div class="hands"></div>
     </div>
 
-    <script src="Javascript.js"></script>
+    <script src="Javascript.js">
+        window.onload = function() {
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        const img = document.getElementById("background");
+        ctx.drawImage(img, 10, 10);
+      };
+      </script>
     
 </body>
 </html>

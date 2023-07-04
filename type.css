@@ -4,15 +4,30 @@
 }
 
 body{
-    width: 100%;
-    height: 100vh;
+    width: 10px;
+    height: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.game{
-    width: 700px;
-    height: 500px;
-    background-color: antiquewhite;
+.img{
+    width: 10px;
+    height: 25px;
     position: relative;
+}
+
+.danger-line{
+    width: 100%;
+    height: 15px;
+    background-color: brown;
+    position: absolute;
+    bottom: 0%;
+}
+.hands{
+    width: 80px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 15px;
+    left:  300px;
 }

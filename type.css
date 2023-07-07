@@ -35,4 +35,5 @@ body{
     height: 30px;
     background-color: rgb(21, 124, 124);
     position: absolute;
+    border-radius: 50%;
 }

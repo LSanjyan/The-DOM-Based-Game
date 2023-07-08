@@ -47,7 +47,7 @@ function generateBalls(){
             clearTimeout(ballTimeout);
             location.reload();
         }
-        ballBottom -= 3;
+        ballBottom -= 5;
         ball.style.bottom = ballBottom + 'px';
         ball.style.left = ballLeft + 'px';
     }

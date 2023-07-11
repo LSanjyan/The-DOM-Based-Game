@@ -6,4 +6,4 @@ Steps for my games funcionality:
 3.Fall Down,
 4.Catch It,
 5.Keep score.
- Here is link to my Game: http://127.0.0.1:5500/index.html
+ Here is link to my Game:  http://127.0.0.1:5500/index.html

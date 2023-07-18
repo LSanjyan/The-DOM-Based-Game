@@ -6,3 +6,4 @@ Steps for my games funcionality:
 3.Fall Down,
 4.Catch It,
 5.Keep score.
+
